@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  .row-fluid
+    .span4.hero-unit
+      h1= app_config.title
+      p= app_config.description
+    .span8
+      include calculator/calc_panel
